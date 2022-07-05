@@ -10,9 +10,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div>
-        <Hero />
-      </div>
+      <Hero
+        heading="Captur Photography"
+        message="I capture moments in nature and keep them alive."
+      />
     </div>
   );
 }
