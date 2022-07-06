@@ -35,7 +35,7 @@ const Navbar = () => {
             Captur
           </h1>
         </Link>
-        <ul className="hidden sm:flex">
+        <ul className="hidden sm:flex" style={{ color: `${textColor}` }}>
           <li className="p-4">
             <Link href="/">Home</Link>
           </li>
